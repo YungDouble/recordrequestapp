@@ -4,7 +4,7 @@ const Info = ({info}) => {
     return(
         <div className="form-template">
             {
-                info.map(ninja => {
+                info.map(info => { 
                     return(
                         
                     
