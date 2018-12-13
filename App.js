@@ -19,6 +19,12 @@ class App extends Component {
           <h3>Record Request Form</h3>
           <Info info={this.state.info} />
           <console className="log">{this.state}</console>
+      <ul>
+      <li>Student Records</li>
+      <li>SPED Records</li>
+      <li>HR Records</li>
+      <li>AR Records</li>
+      </ul>
           <fillform />
           </div>
         </div>  
